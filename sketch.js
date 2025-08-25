@@ -1,9 +1,14 @@
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth, WindowHeight);
 }
 
 function draw() {
   background(0);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
 
   let centerx = width / 2; 
   let centery = height / 2; 
