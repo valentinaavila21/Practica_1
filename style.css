@@ -1,8 +1,9 @@
 html, body {
   margin: 0;
   padding: 0;
+  overflow: hidden; /* Evita las barras de desplazamiento */
 }
 
 canvas {
-  display: block;
+  display: block; /* Elimina espacios extra debajo del canvas */
 }
